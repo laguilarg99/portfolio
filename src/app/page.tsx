@@ -58,7 +58,7 @@ function Home() {
             href="https://cal.com/luis-miguel-aguilar-gonzalez-xbokby/quick-chat"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1 text-xs text-gray-700 mt-2 transition-transform duration-200 hover:scale-105"
+            className="hidden sm:flex items-center gap-1 text-xs text-gray-700 mt-2 transition-transform duration-200 hover:scale-105"
             style={{ textDecoration: "none" }}
           >
             <Image
