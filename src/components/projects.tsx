@@ -9,22 +9,28 @@ type Project = {
 
 const projects: Project[] = [
     {
-        title: 'Portfolio Website',
-        description: 'A personal portfolio website to showcase my projects and skills.',
-        technologies: ['React', 'TypeScript', 'CSS Modules'],
-        link: 'https://your-portfolio.com',
+        title: 'Real-time monitoring task scheduling service for IoT nodes.',
+        description: 'RITA (Real-time IoT Tasks Administrator) is an application created to manage real time monitoring tasks within a pool of devices that are collecting data from a pool of sensors and sending that data to our app, which will enable the user to see it over time.',
+        technologies: ['C', 'React', 'CSS', 'HTML', 'Docker', 'Java', 'MongoDB'],
+        link: 'https://github.com/laguilarg99/RITA.git',
     },
     {
-        title: 'Task Manager App',
-        description: 'A simple task manager to organize daily activities.',
-        technologies: ['React', 'Redux', 'Material-UI'],
-        link: 'https://github.com/yourusername/task-manager',
+        title: 'Motor Adaptation System in Virtual Reality Environments',
+        description: 'SAMRV (ES: Sistema de Adaptación motora en entorno de realidad virtual) In collaboration with IFMIF-DONES, the particle accelerator facility in Granada, this project tried to measure and evaluate the precision of eye-tracking sensors in the HTC VIVE PRO 2 VR headset.',
+        technologies: ['C', 'Unity 3D'],
+        link: 'https://github.com/laguilarg99/SAMRV.git',
     },
     {
-        title: 'Blog Platform',
-        description: 'A blogging platform with markdown support and user authentication.',
-        technologies: ['Next.js', 'Node.js', 'MongoDB'],
-        link: 'https://github.com/yourusername/blog-platform',
+        title: 'Occupancy Control and Mask Detection System',
+        description: 'A project addressing two critical COVID-19 safety challenges: managing indoor occupancy and ensuring mask compliance when distancing isn’t feasible. Integrated into a single system, it provides effective health measure enforcement for any indoor public or private space.',
+        technologies: ['Python', 'Numpy', 'Tensorflow'],
+        link: 'https://github.com/laguilarg99/Sistema-de-control-de-aforos-y-deteccion-de-mascarillas-.git',
+    },
+    {
+        title: 'Portfolio',
+        description: 'A personal portfolio website to showcase my projects, skills, and experience. Built with modern web technologies, it features a responsive design and interactive UI to provide visitors with an overview of my work and background.',
+        technologies: ['Next js', 'TypeScript', 'Tailwind CSS'],
+        link: 'https://github.com/laguilarg99/portfolio.git',
     },
 ];
 
