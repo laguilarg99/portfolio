@@ -2,7 +2,7 @@ import React from "react";
 
 const contacts = [
     {
-        href: "www.linkedin.com/in/luis-miguel-aguilar-gonzález-219b6b194",
+        href: "https://www.linkedin.com/in/luis-miguel-aguilar-gonz%C3%A1lez-219b6b194/",
         label: "LinkedIn",
         icon: (
             <svg width="32" height="32" viewBox="0 0 48 48" fill="none">
