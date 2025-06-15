@@ -12,10 +12,12 @@ const AboutMe: React.FC = () => (
             </span>
         </div>
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
-        <p className="text-base text-gray-700">
-            Hello! I'm Luis Miguel, a passionate software developer with a love for building web applications.
-            I enjoy learning new technologies and solving challenging problems. In my free time, I like to read,
-            explore new places, and contribute to open source projects.
+        <p className="text-base text-gray-700 text-justify">
+            Hello! I'm Luis Miguel, a passionate software developer.
+            I enjoy learning new technologies and solving challenging problems. 
+            I am always willing to learn new things, individually and as a team and 
+            I consider that my abilities to do so are quite good, thanks to my strong will 
+            and perseverance in those projects that I know will make me improve as an engineer.
         </p>
     </section>
 );

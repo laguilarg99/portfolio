@@ -2,19 +2,7 @@ import React from "react";
 
 const contacts = [
     {
-        href: "mailto:your.email@gmail.com",
-        label: "Gmail",
-        icon: (
-            <svg width="32" height="32" viewBox="0 0 48 48" fill="none">
-                <rect width="48" height="48" rx="8" fill="#fff"/>
-                <path d="M8 14v20a2 2 0 002 2h28a2 2 0 002-2V14l-16 12L8 14z" fill="#EA4335"/>
-                <path d="M40 14v20a2 2 0 01-2 2H10a2 2 0 01-2-2V14l16 12L40 14z" fill="#fff"/>
-                <path d="M8 14l16 12 16-12" stroke="#EA4335" strokeWidth="2"/>
-            </svg>
-        ),
-    },
-    {
-        href: "https://www.linkedin.com/in/yourprofile",
+        href: "www.linkedin.com/in/luis-miguel-aguilar-gonzález-219b6b194",
         label: "LinkedIn",
         icon: (
             <svg width="32" height="32" viewBox="0 0 48 48" fill="none">
@@ -24,7 +12,7 @@ const contacts = [
         ),
     },
     {
-        href: "https://github.com/yourusername",
+        href: "https://github.com/laguilarg99",
         label: "GitHub",
         icon: (
             <svg width="32" height="32" viewBox="0 0 48 48" fill="none">
@@ -37,7 +25,7 @@ const contacts = [
 
 const Contact: React.FC = () => (
     <section className="flex flex-col items-center py-8">
-        <h2 className="text-3xl font-bold mb-6">Contact</h2>
+        <h2 className="text-2xl p-8 max-w-xl mx-auto font-bold mb-4">Contact</h2>
         <div className="flex flex-wrap justify-center gap-10">
             {contacts.map(({ href, label, icon }) => (
                 <a
