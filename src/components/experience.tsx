@@ -113,8 +113,8 @@ const ExperienceTimeline: React.FC = () => {
                                 >
                                     <div className="flex justify-between items-center">
                                         <div>
-                                            <div className="font-bold text-lg">{exp.title} - {exp.year}</div>
-                                            <div className="text-blue-700 font-medium">{exp.company}</div>
+                                            <div className="font-bold text-lg">{exp.title}</div>
+                                            <div className="text-blue-700 font-medium">{exp.company} - {exp.year}</div>
                                             <div className="text-gray-700 text-base mt-1">{exp.description}</div>
                                         </div>
                                         <span className="ml-2 text-gray-500">
