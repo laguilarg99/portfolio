@@ -14,12 +14,11 @@ function Home() {
     <>
    
       <TimeBar />
-
       <div className="flex flex-col md:flex-row pt-20 max-w-6xl mx-auto">
         <div className="md:flex-shrink-0">
           <FloatingSidebar />
         </div>
-        <div className="order-first md:order-none w-full md:w-auto">
+        <div className="order-first md:order-none w-full md:w-auto md:ml-8">
           <Presentation />
         </div>
 
