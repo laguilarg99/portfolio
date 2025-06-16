@@ -113,7 +113,7 @@ const ExperienceTimeline: React.FC = () => {
                                 >
                                     <div className="flex justify-between items-center">
                                         <div>
-                                            <div className="font-bold text-lg">{exp.title}</div>
+                                            <div className="font-bold text-lg">{exp.title} - {exp.year}</div>
                                             <div className="text-blue-700 font-medium">{exp.company}</div>
                                             <div className="text-gray-700 text-base mt-1">{exp.description}</div>
                                         </div>
@@ -134,9 +134,6 @@ const ExperienceTimeline: React.FC = () => {
                                             <li key={i}>{detail}</li>
                                         ))}
                                     </ul>
-                                    <div className={`text-gray-400 text-sm mt-2 transition-opacity duration-700 ${expandedIdx === idx ? "opacity-100 delay-300" : "opacity-0 delay-0"}`}>
-                                        {exp.year}
-                                    </div>
                                 </div>
                             </div>
                         </li>
