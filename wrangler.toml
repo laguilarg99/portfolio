@@ -1,0 +1,7 @@
+  name = "portfolio"
+  compatibility_date = "2025-05-25"
+  compatibility_flags = ["nodejs_compat"]
+  
+  [assets]
+  directory = ".next"
+  binding = "ASSETS"
