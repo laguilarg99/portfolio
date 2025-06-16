@@ -30,7 +30,7 @@ const experiences: Experience[] = [
         ]
     },
     {
-        year: "2021-2023",
+        year: "2021 - 2023",
         title: "Java Backend Engineer",
         company: "ELCA Spain",
         description: "Progressed from Associate Engineer to a leadership role, delivering full-stack solutions and infrastructure migrations while mentoring team members. Worked across backend, frontend, and DevOps tasks in an Agile/Scrum environment, enhancing both technical execution and team collaboration.",
@@ -114,7 +114,7 @@ const ExperienceTimeline: React.FC = () => {
                                     <div className="flex justify-between items-center">
                                         <div>
                                             <div className="font-bold text-lg">{exp.title}</div>
-                                            <div className="text-blue-700 font-medium">{exp.company} - {exp.year}</div>
+                                            <div className="text-blue-700 font-medium">{exp.company} ({exp.year})</div>
                                             <div className="text-gray-700 text-base mt-1">{exp.description}</div>
                                         </div>
                                         <span className="ml-2 text-gray-500">
