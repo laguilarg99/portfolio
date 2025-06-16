@@ -21,7 +21,7 @@ const FloatingSidebar: React.FC = () => {
     };
 
     return (
-        <aside className="fixed sm:top-1/2 left-2 bg-white shadow-2xl shadow-black/30 p-4 rounded-full z-[1000] border border-gray-200">
+        <aside className="fixed sm:top-1/2 top-[50] left-2 bg-white shadow-2xl shadow-black/30 p-4 rounded-full z-[1000] border border-gray-200">
             <nav>
                 <ul className="list-none m-0 p-0 flex sm:flex-col flex-row gap-4">
                     {sections.map((section) => (
