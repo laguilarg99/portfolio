@@ -13,6 +13,7 @@ function Presentation () {
             className="rounded-full border"
           />
           <div className="font-semibold text-md">Luis Miguel Aguilar</div>
+          <div className="text-xs text-gray-500 text-center">Senior DevOps / Backend Engineer</div>
           <a
             href="https://cal.com/luis-miguel-aguilar-gonzalez-xbokby/quick-chat"
             target="_blank"
