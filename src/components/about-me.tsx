@@ -13,7 +13,7 @@ const AboutMe: React.FC = () => (
         </div>
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <p className="text-base text-gray-700 text-justify">
-            Hello! I'm Luis Miguel, a Senior Software Engineer with 4+ years of experience
+            Hello! I'm Luis Miguel, a Senior Software Engineer with 5+ years of experience
             in backend development and DevOps, specializing in CI/CD automation, cloud-native
             architectures, and event-driven systems. I have a proven track record designing
             scalable pipelines, improving system reliability, and supporting high-throughput
