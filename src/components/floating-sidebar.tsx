@@ -4,6 +4,7 @@ import React from "react";
 const sections = [
     { id: "About", icon: "/about.png", label: "About" },
     { id: "Experience", icon: "/experience.png", label: "Experience" },
+    { id: "Talks", icon: "/call.png", label: "Talks" },
     { id: "Projects", icon: "/projects.png", label: "Projects" },
     { id: "Contact", icon: "/contact.png", label: "Contact" },
 ];

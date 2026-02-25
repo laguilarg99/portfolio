@@ -4,6 +4,7 @@ import Contact from "@/components/contact";
 import Experience from "@/components/experience";
 import FloatingSidebar from "@/components/floating-sidebar";
 import Projects from "@/components/projects";
+import Talks from "@/components/talks";
 import TimeBar from "@/components/time-bar";
 import Presentation from "@/components/presentation";
 
@@ -28,6 +29,9 @@ function Home() {
           </section>
           <section id="Experience" className="mb-16 scroll-mt-24">
             <Experience />
+          </section>
+          <section id="Talks" className="mb-16 scroll-mt-24">
+            <Talks />
           </section>
           <section id="Projects" className="mb-16 scroll-mt-24">
             <Projects />
