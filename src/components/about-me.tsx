@@ -22,6 +22,16 @@ const AboutMe: React.FC = () => (
             do so are quite good, thanks to my strong will and perseverance in those projects
             that I know will make me improve as an engineer.
         </p>
+        <h3 className="text-lg font-semibold mt-6 mb-3">Certifications</h3>
+        <ul className="space-y-2">
+            <li className="flex items-center gap-3 bg-white rounded-lg shadow-sm border border-gray-100 px-4 py-3">
+                <span className="text-purple-700 text-xl">🏅</span>
+                <div>
+                    <div className="font-medium text-sm">HashiCorp Certified: Terraform Associate (004)</div>
+                    <div className="text-xs text-gray-500">HashiCorp · 2026</div>
+                </div>
+            </li>
+        </ul>
     </section>
 );
 
