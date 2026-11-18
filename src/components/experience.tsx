@@ -10,81 +10,79 @@ type Experience = {
 
 const experiences: Experience[] = [
     {
-        year: "2025 - Present",
+        year: "Aug 2026 - Present",
+        title: "Senior DevOps Engineer",
+        company: "Knowmad Mood (Volkswagen account)",
+        description: "Building ephemeral AWS E2E environments with AWS CDK and GitHub Actions, cutting monthly account costs by about 75%.",
+        details: [
+            "Migrated an E2E testing AWS account to ephemeral environments, reducing cost from about €4,000 to €1,000 per month",
+            "Defined infrastructure in AWS CDK (Kotlin), running about 120 ECS tasks across 50 services",
+            "Automated environment creation and teardown with GitHub Actions for about 25 developers and 75 E2E runs per day",
+            "Created and configured IAM roles for the AWS account",
+            "Migrating service dashboards and alerts from New Relic to Grafana",
+        ]
+    },
+    {
+        year: "Sep 2025 - Aug 2026",
         title: "DevOps Engineer Expert",
         company: "T-Systems",
-        description: "Automated CI/CD pipelines with GitLab CI, improving deployment reliability and test coverage for Go-based services. Designed event-driven systems using Kafka and Redpanda and deployed workloads on Kubernetes (EKS) with Terraform and Helm.",
+        description: "Operated AWS EKS infrastructure and CI/CD for event-driven Go microservices, contributing to Kubernetes platform tooling and SRE observability.",
         details: [
-            "Automated CI/CD pipelines with GitLab CI for Go-based services",
-            "Improved deployment reliability and test coverage",
-            "Designed event-driven systems using Kafka and Redpanda",
-            "Deployed workloads on Kubernetes (EKS) with Terraform and Helm",
-            "Managed cloud-native architectures on AWS",
-            "Worked with Go, Python, and Bash for tooling and automation",
-            "Maintained and optimized PostgreSQL and Elasticsearch databases",
+            "Automated GitLab CI pipelines and optimized test frameworks for Go microservices",
+            "Maintained unit, integration, and E2E test suites gating every release",
+            "Managed AWS EKS infrastructure with Kubernetes, Helm, and Terraform",
+            "Contributed features to a custom Go Kubernetes operator managing state and dependencies for IoT applications",
+            "Worked with Prometheus Operator and cert-manager on EKS",
+            "Built Grafana dashboards and alerting for SRE practices",
         ]
     },
     {
-        year: "2023 - 2025",
+        year: "Mar 2023 - Sep 2025",
         title: "Specialist Software Engineer",
         company: "Vodafone Innovation Hub",
-        description: "Designed CI/CD pipelines using Jenkins and built backend tooling in Go. Deployed and operated services across AWS and Kubernetes with integrated monitoring and alerting.",
+        description: "Built CI/CD pipelines and QA automation, operated Kubernetes workloads, and improved monitoring across cloud and on-premise environments.",
         details: [
-            "Designed and implemented CI/CD pipelines using Jenkins (Groovy)",
-            "Built backend tooling and custom tools in Go",
-            "Deployed services to AWS using Kubernetes (EKS)",
-            "Created Helm charts for Kubernetes deployments",
-            "Integrated monitoring and alerting systems",
-            "Developed custom observability logic",
-            "Collaborated with development, QA, and infrastructure teams",
-            "Supported and modernized on-premise applications",
-            "Performance tuning and system optimization",
+            "Designed and implemented Jenkins (Groovy) CI/CD pipelines for AWS and on-premise environments",
+            "Built custom QA tooling in Go and Selenium to automate manual testing",
+            "Ran containerised workloads on Kubernetes (EKS) with Helm",
+            "Integrated monitoring, logging, and alerting across infrastructure and application layers",
+            "Tuned performance and troubleshot infrastructure and application issues",
         ]
     },
     {
-        year: "2021 - 2023",
+        year: "May 2021 - Mar 2023",
         title: "Software Engineer",
         company: "ELCA Spain",
-        description: "Developed Java Spring Boot APIs, contributed to Angular UI features, and led AWS cloud migrations using Terraform and Docker. Mentored junior engineers and supported production monitoring and performance analysis.",
+        description: "Delivered Java backend APIs and DevOps work, including breaking apart a monolith and migrating a service to AWS.",
         details: [
-            "Developed Java Spring Boot API services",
-            "Contributed to Angular UI features",
-            "Led AWS cloud migrations using Terraform",
-            "Containerized applications using Docker",
-            "Mentored junior engineers and new team members",
-            "Supported production monitoring and performance analysis",
-            "Worked with Java, SQL, DynamoDB, and Spring ecosystem",
-            "Used ActiveMQ for messaging and Elasticsearch for search/logs",
-            "Wrote automation scripts with MySQL and Bash",
-            "Utilized tools like Bitbucket and Jira in Agile workflows",
+            "Delivered Java backend APIs with Spring Boot and Maven, and supported Angular, JSP, and DevOps work",
+            "Split a monolith into services and migrated one service to AWS using Terraform and Docker",
+            "Automated workflows with Bash and MySQL; worked with DynamoDB, ActiveMQ, and Elasticsearch",
+            "Monitored performance with CloudWatch and diagnosed memory issues with Eclipse MAT",
+            "Mentored junior engineers, led code reviews, and supported Agile/Scrum practices",
+            "Promoted from Associate to senior engineer",
         ]
     },
     {
-        year: "July 2020 - October 2020",
-        title: "System Administrator - Intern",
-        company: "Albolote's Town Hall",
+        year: "Jul 2020 - Oct 2020",
+        title: "System Administrator (Internship)",
+        company: "Albolote Town Hall",
         description: "Managed Windows systems and supported IT operations in a municipal environment, gaining hands-on experience in system maintenance, network administration, and technical support.",
         details: [
-            "Managed Windows desktop systems and Windows Server environments",
-            "Performed routine system maintenance and troubleshooting",
-            "Assisted with network administration tasks",
-            "Provided IT support to municipal staff",
-            "Documented technical procedures and configurations",
+            "Maintained Windows desktop systems and legacy Windows Server 98 environments",
+            "Handled routine maintenance, basic network administration, and end-user support",
+            "Documented technical procedures to improve system reliability",
         ]
     },
     {
         year: "2018 - 2019",
-        title: "Web Developer - Student-Led Web Development Initiative",
-        company: "Reddelsur",
-        description: "Co-founded a student-run company to design and build affordable web applications for small businesses in Granada, gaining practical experience while learning modern web development tools and workflows.",
+        title: "Web Developer and Co-founder",
+        company: "Reddelsur, University of Granada",
+        description: "Co-founded a student initiative building low-cost websites for local businesses in Granada.",
         details: [
-            "Co-founded and managed a student-led web development company",
-            "Designed and developed websites using HTML, CSS, and Bootstrap",
-            "Built and customized sites with WordPress",
-            "Collaborated using GitHub for version control",
-            "Deployed web applications on LAMP stack (Linux, Apache, MySQL, PHP)",
-            "Worked directly with clients to gather requirements and deliver solutions",
-            "Balanced hands-on learning with delivering real-world projects",
+            "Built responsive sites with HTML, CSS, Bootstrap, and WordPress",
+            "Deployed sites on a LAMP stack and used GitHub for version control",
+            "Worked directly with clients on requirements and delivery",
         ]
     },
 ];
@@ -132,7 +130,7 @@ const ExperienceTimeline: React.FC = () => {
                                 </button>
                                 <div
                                     id={`exp-details-${idx}`}
-                                    className={`transition-all duration-500 ease-in-out overflow-hidden ${expandedIdx === idx ? "max-h-40 opacity-100 mt-4" : "max-h-0 opacity-0 mt-0"}`}
+                                    className={`transition-all duration-500 ease-in-out overflow-hidden ${expandedIdx === idx ? "max-h-[1000px] opacity-100 mt-4" : "max-h-0 opacity-0 mt-0"}`}
                                     style={{
                                         transitionProperty: "max-height, opacity, margin-top",
                                     }}

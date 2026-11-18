@@ -13,8 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Luis Miguel Aguilar",
-  description: "Luis Miguel Aguilar Porfolio",
+  title: "Luis Miguel Aguilar | CloudOps & Platform Engineer",
+  description:
+    "Luis Miguel Aguilar is a cloud and platform engineer specialising in AWS, Kubernetes, infrastructure as code, CI/CD, and observability.",
+  icons: {
+    icon: "/favicon.svg?v=2",
+  },
 };
 
 export default function RootLayout({
